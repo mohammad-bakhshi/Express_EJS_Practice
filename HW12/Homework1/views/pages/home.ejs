@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <%- include ('./head'); %>
+
+  <body>
+    <%- include ('./navbar'); %> <%- include ('./scripts'); %>
+    <div id="root" class="container-lg d-flex flex-wrap justify-content-start mt-4">
+
+    </div>
+    <script>
+      const root = $("#root");
+
+      const Card =  `<div class="container d-flex">
+    <figure class="card card-product-grid card-lg"> <img src="<%= image%>">
+        <figcaption class="info-wrap">
+            <div class="row justify-content-center">
+                <p class="col-md-9 col-xs-9 font text-center" style="font-size:large;font-weight:bold"><%= name%></p>
+            </div>
+        </figcaption>
+        <div class="bottom-wrap-payment p-2">
+            <figcaption class="info-wrap">
+                <div class="row">
+                    <div class="col-md-9 col-xs-9">رنگ :<%= color%></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-9 col-xs-9">سایز :<%= size%></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-9 col-xs-9">جنس :<%= kind%></div>
+                </div>
+            </figcaption>
+        </div>
+        <div class="d-flex text-align-center p-2"><p class="col-md-9 col-xs-9">قیمت :<%= price%></p> 
+          <a href="home/product:1" class="btn btn-success" data-abc="true"> خرید</a> 
+        </div>
+    </figure>
+</div>`;
+        $(root).html(Card);
+    </script>
+  </body>
+</html>

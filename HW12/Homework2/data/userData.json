@@ -1,0 +1,30 @@
+[
+    {
+        "username": "mbakhshi1379",
+        "password": "546",
+        "email": "mohammadbakhshi1979@gmail.com",
+        "gender": "male",
+        "isLoggedIn": true
+    },
+    {
+        "username": "pre41.bakhshi",
+        "password": "546",
+        "email": "mohammadbakhshi1979@gmail.com",
+        "gender": "male",
+        "isLoggedIn": true
+    },
+    {
+        "username": "sdfafda",
+        "password": "adfsadf",
+        "email": "sdfsfa",
+        "gender": "male",
+        "isLoggedIn": true
+    },
+    {
+        "username": "saleh",
+        "password": "bakhshi",
+        "email": "saleh@gamil.com",
+        "gender": "male",
+        "isLoggedIn": true
+    }
+]
